@@ -1,0 +1,139 @@
+body{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-size: cover;
+    background-image: url("background_img.jpg");
+}
+img{
+    height: 1em;
+    margin-left: 2.5em;
+    margin-top: 0.3em;
+}
+#nav{
+    position: absolute;
+    width: 100vw;
+    font-size: 2.5em;
+    font-weight: 650;
+    font-family: system-ui;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: goldenrod;
+}
+#PC{
+    height: 1em;
+    margin-left: 4.5em;
+    margin-top: 0.3em;
+    font-size: 1em;
+    display: inline-block;
+    text-align: center;
+}
+#devathon{
+    display: inline-block;
+    margin-left: 10em;
+    margin-top: 2em;
+}
+#dev{
+    margin-left: 0.9em;
+    font-size: 2.5em;
+    color: blueviolet;
+}
+#ELEVATION{
+    font-weight: 500;
+    font-size: 2.25em;
+    font-family: cursive;
+    color: #ffb300;
+}
+#ABOUT{
+    font-weight: 500;
+    font-size: 1.25em;
+    font-style: system-ui;
+    color: aliceblue;
+}
+p{
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    display: inline-block;
+}
+
+h4{
+    display: inline-block;
+}
+input{
+    background-color: transparent;
+    outline: none;
+    border-right: none;
+    border-color: aliceblue;
+    border-left: none;
+    border-top: none;
+    padding: 1em;
+    width: 20vw;
+}
+#SIGN-IN{
+    display: inline-block;
+    margin-top: 7.5em;
+    margin-left: 20em;
+    width: 20em;
+    height: 20em;
+    padding: 1.25em;
+    border-style:solid;
+    border-color: rgba(255, 255, 0, 0.456);
+    border-radius: 1em;
+    border-right-width: 0.25em;
+    border-bottom-width: 0.3em;
+    padding-bottom: 3em;
+}
+#SIGN-IN1{
+    position: relative;
+    text-align: center;
+}
+#SIGN-IN2{
+    color:aliceblue;
+}
+#button{
+    display: inline-block;
+    font-family: system-ui;
+    font-weight: 500;
+    color: goldenrod;
+    border-style:solid;
+    border-width: 0.3em;
+    border-color: goldenrod;
+    padding-left: 3.5em;
+    padding-right: 3.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.3em;
+    border-radius: 0.625em;
+    background-color: transparent;
+    cursor: pointer;
+}
+#button:hover{
+    color: black;
+    background-color: goldenrod;
+}
+#signin{
+    margin-top: 0px;
+    margin-bottom: 0.5em;
+    color: goldenrod;
+    font-family: system-ui;
+    font-weight: 450;
+    font-size: 2em;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    color: aliceblue;
+    display: block;
+    text-align: center;
+    bottom: 0px;
+    width: 100vw;
+    padding-bottom: 2em;
+    padding-top: 1em;
+}
+#FB{
+    display: inline-block;
+    margin-left: 12.6em;
+    font-size: 1.25em;
+}
