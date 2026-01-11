@@ -137,3 +137,12 @@ footer{
     margin-left: 12.6em;
     font-size: 1.25em;
 }
+
+/* AutoTriage: responsive base */
+*, *::before, *::after { box-sizing: border-box; }
+img { max-width: 100%; height: auto; }
+.container { width: 100%; max-width: 1200px; margin: 0 auto; padding: 0 16px; }
+@media (max-width: 768px) {
+  .row, .grid, .columns { display: block; }
+  .col, .column { width: 100%; }
+}
